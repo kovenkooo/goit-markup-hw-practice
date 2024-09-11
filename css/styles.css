@@ -1,0 +1,139 @@
+body {
+    font-family: "Raleway", sans-serif;
+    width: 1440px;
+    height: 2060px;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0px;
+}
+
+ul,
+ol {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+  /* Header */
+
+/* Logo */
+
+.web-logo {
+    color: #4d5ae5;
+}
+
+.logo {
+    padding-left: 156px;
+    box-sizing: border-box;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+    text-decoration: none;
+    margin: 0px;
+}
+
+
+header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border: 1px;
+    background-color: #FFFFFF;
+    border-color: #E7E9FC;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Navigation */
+
+.navigation-list {
+    padding-left: 76px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.navigation-list-item {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Contacts */
+
+.contacts-list {
+    padding-left: 332px;
+    flex-direction: row;
+    display: flex;
+    gap: 40px;
+}
+
+.contacts-list-item-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+}
+
+/* Main */
+
+/* First page */
+
+.first-page-container {
+    flex-direction: column;
+    background-color: #2E2F42;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-page-title {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.order-button {
+    margin-top: 48px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+}
+
+.order-button-text {
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #fff;
+    line-height: 150%;
+}
+
+
